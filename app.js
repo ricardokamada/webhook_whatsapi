@@ -10,7 +10,7 @@ app.use(bodyParser())
 app.get('/api/whatsapp/', (req, res)=> {
     //res.send("Tudo certo na rota 3 !  ")
     console.log(req.body)
-    res.status(200).send('webhook recebido com sucesso !  Samuel')
+    res.status(200).send('webhook recebido com sucesso ! ')
 })
 
 app.get('/', (req, res)=> {
